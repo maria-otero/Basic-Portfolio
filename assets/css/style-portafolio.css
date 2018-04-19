@@ -1,4 +1,4 @@
-.containerRelative {
+/* .containerRelative {
     position: relative;
 }
 
@@ -7,5 +7,13 @@
     
     right: -10%;
     bottom: -10%;
+
+} */
+
+#nombre {
+    float: left;
+    padding: 20px 30px 20px 30px;
+    background: #4aaaa5;
+    height: 40px;
 
 }
