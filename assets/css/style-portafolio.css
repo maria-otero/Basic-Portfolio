@@ -1,0 +1,11 @@
+.containerRelative {
+    position: relative;
+}
+
+.nombre {
+    position: absolute;
+    
+    right: -10%;
+    bottom: -10%;
+
+}
