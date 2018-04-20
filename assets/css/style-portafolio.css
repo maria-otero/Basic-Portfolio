@@ -1,19 +1,31 @@
-/* .containerRelative {
+
+td {
+    float: left;
+    width: 25%;
     position: relative;
 }
 
-.nombre {
-    position: absolute;
-    
-    right: -10%;
-    bottom: -10%;
+img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
 
-} */
+#clean::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
-#nombre {
-    float: left;
-    padding: 20px 30px 20px 30px;
+.h3White {
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px 5px;
     background: #4aaaa5;
-    height: 40px;
-
+    width: 200px;
+    
+    position: absolute;
+    bottom: 0%;
 }
